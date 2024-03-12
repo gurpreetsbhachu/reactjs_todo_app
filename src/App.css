@@ -1,0 +1,42 @@
+body{
+  background-color: #232e58 !important;
+}
+
+.user-input{
+  margin: 0px auto;
+  position: relative;
+}
+
+.user-input input{
+  padding: 16px;
+  border-color: #7ACCFA !important;
+  background-color: #1a2347 !important;
+  color: #fff !important;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.user-input input::placeholder{
+  color: #f9f9f98b;
+}
+
+.user-input span {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 1.8;
+    cursor: pointer;
+    transition: all 200ms;
+    background-color: #7ACCFA;
+    color: #1a2347;
+    padding: 9px 22px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+
+.user-input span:hover {
+  background-color: #fff;
+  color: #08a029;
+  }

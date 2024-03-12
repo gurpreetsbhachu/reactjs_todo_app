@@ -1,0 +1,20 @@
+.list-group-item{
+    padding: 16px !important;
+    background-color: #f9f9f9;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.list-shadow{
+    box-shadow: rgb(122, 204, 250) 0px 0px 128px -28px !important;
+}
+
+.list-group-item i{
+    font-size: 18px !important;
+}
+
+.not-done{
+    background-color: #7ACCFA !important;
+    border-color: #7ACCFA !important;
+    
+}
